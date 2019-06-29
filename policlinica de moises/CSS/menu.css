@@ -1,0 +1,132 @@
+#header{
+	margin:auto;
+	width:500px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+#cita{
+	display: block;
+	color: #333;
+}
+
+#sombra{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	text-shadow:3px 3px 5px #666,
+	            7px 7px 6px #999999;
+	color:#FFF;
+	background-color: #0CC;
+
+	}
+
+ul, ol, li{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+
+ul, ol{
+	list-style: none;
+}
+
+.nav li a{
+	background-color:#0CC;
+	color: #FFF;
+	padding:17px 20px;
+	display:block;	
+}
+
+.nav li a:hover{
+	
+	background-color: #666;
+}
+.nav > li{
+	float: left;
+}
+
+.nav li ul {
+	display:none;
+	position: absolute;
+	min-width:140px;
+}
+
+.nav li:hover > ul{
+	display:block;
+}
+
+.nav li ul li{
+	position: relative;
+}
+
+.nav li ul li ul{	
+	right:-110px;
+	top:0px;
+}
+
+
+#vision{
+	border-radius:25px;
+	background-color: #0CC;
+	width:250px;
+	padding:15px;
+	float:left;
+}
+#objetivo{
+	border-radius:25px;
+	background-color: #0CC;
+	width:250px;
+	padding:15px;
+	float:left;
+}
+
+.esl{
+	width:60%;
+	margin: auto;
+	overflow: hidden;
+	float:left;
+}
+.esl ul{
+	display:flex;
+	padding:10px;
+	width:400%;
+	animation: cambio 20s infinite alternate;
+	animation-timing-function: ease-in;
+	float:left;
+	
+}
+
+.esl li{
+	width:100%;
+	list-style: none;
+	float:left;
+	
+}
+
+.img{
+	width:100%;
+	float:left;
+}
+
+@keyframes cambio{
+	0% {margin-left:0;}
+	20% {margin-left:0;}
+	
+	25% {margin-left:-100%;}
+	45% {margin-left:-100%;}
+
+	50% {margin-left:-200%;}
+	70% {margin-left:-200%;}
+	
+	75% {margin-left:-300%;}
+	100% {margin-left:-300%;}
+}
+#horario{
+	
+	border-radius: 25px;
+	background-color: #0CC;
+	width:250px;
+	padding:15px;
+	float:left;
+
+}
+
+
+
+
